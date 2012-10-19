@@ -1,9 +1,9 @@
 Laticss
 =======
 
-Intuituve, very scalable and simple micro framework-grid system
+Intuituve, scalable and simple micro framework-grid system
 
-With Laticss YOU how many columns you want ! You can work with 2, 3, 4, 5, 6, 8, 10, 12 columns and more... 
+With Laticss YOU choose how many columns you want ! You can work with 2, 3, 4, 5, 6, 8, 10, 12 columns and more combinations... 
 
 Quick start
 -----------
