@@ -20,6 +20,7 @@ A simple exemple with 5 columns
     </head>
   
     <body>
+        <!-- We want 5 columns, we divide by 5 -->
         <div class="row div5">
             <div class="use">
                 <p>Ok, I'm one column</p>
