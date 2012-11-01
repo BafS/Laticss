@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Laticss by BafS</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Laticss</h1>
+        <p>Intuituve, scalable and simple micro framework-grid system</p>
+
+        <p class="view"><a href="https://github.com/BafS/Laticss">View the Project on GitHub <small>BafS/Laticss</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/BafS/Laticss/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/BafS/Laticss/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/BafS/Laticss">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Laticss</h1>
+
+<p>Intuituve, scalable and simple micro framework-grid system</p>
+
+<p>With Laticss YOU choose how many columns you want ! You can work with 2, 3, 4, 5, 6, 8, 10, 12 columns and more combinations... </p>
+
+<h2>Quick start</h2>
+
+<p>So, let's begin !</p>
+
+<p>A simple exemple with 5 columns</p>
+
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;title&gt;Laticss - test&lt;/title&gt;
+        &lt;link href="laticss.css" rel="stylesheet"&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+        &lt;!-- We want 5 columns, we divide by 5 --&gt;
+        &lt;div class="row div5"&gt;
+            &lt;div class="use"&gt;
+                &lt;p&gt;Ok, I'm one column&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="use3"&gt;
+                &lt;p&gt;I'm tree columns !&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="use"&gt;
+                &lt;p&gt;And me, I'm the last column&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<ul>
+<li>.row : Make your row</li>
+<li>.divN : The number of columns you want (n can be 2, 3, 4, 5, 6, 8, 10, 12)</li>
+<li>.useN : Use the number of columns you want (with N &lt; the divN parent)</li>
+</ul><p>So, if you want 24 columns you can use div2 and div12. You want 40 columns ? Divide by 4 (div4) and divide each columns with div10, easy, no ?</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/BafS">BafS</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
