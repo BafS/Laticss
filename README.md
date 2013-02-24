@@ -1,9 +1,8 @@
-Laticss
-=======
+![Laticss](http://i.imgur.com/6alQr3p.png)
 
 Intuituve, scalable and simple micro framework-grid system
 
-With Laticss YOU choose how many columns you want ! You can work with 2, 3, 4, 5, 6, 8, 10, 12 columns and more combinations... 
+With Laticss YOU choose how many columns you want ! You can work with 2, 3, 4, 5, 6, 8, 10, 12 columns and more combinations !
 
 Quick start
 -----------
@@ -41,6 +40,7 @@ A simple exemple with 5 columns
  * .row : Make your row
  * .divN : The number of columns you want (N can be 2, 3, 4, 5, 6, 8, 10, 12)
  * .useN : Use the number of columns you want (with N < the divN parent) (use = use1)
+ * .offN : Add offset (0 < N < 12) (off = off1)
 
 So, if you want 24 columns you can use div2 and div12. You want 40 columns ? Divide by 4 (div4) and divide each columns with div10, easy, no ?
 
